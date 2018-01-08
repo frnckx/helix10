@@ -7,6 +7,9 @@ public class Main {
 
     public static void main(String[] args) {
 
+        SacramentoUtil sacramentoUtil = new SacramentoUtil();
+        sacramentoUtil.readSacramentoCSV();
+
 /*
         ArrayList<Integer> listOfNumbers = new ArrayList<>();
 
@@ -67,6 +70,5 @@ public class Main {
        sb.append("B");
        sb.append("c"); //1
        // sb.toString() = abc;
-
     }
 }
